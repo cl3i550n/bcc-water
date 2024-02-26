@@ -328,6 +328,8 @@ function WashPlayer()
     Citizen.InvokeNative(0x523C79AEEFCC4A2A, playerPed, 10, 'ALL') -- ClearPedDamageDecalByZone
     Citizen.InvokeNative(0x8FE22675A5A45817, playerPed) -- ClearPedBloodDamage
     Citizen.InvokeNative(0xE3144B932DFDFF65, playerPed, 0.0, -1, 1, 1) -- SetPedDirtCleaned
+
+    TriggerEvent("hud:client:changeValue", "Cleanliness", 100)
 end
 
 -- Boosts from Drinking

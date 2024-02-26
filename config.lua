@@ -12,7 +12,7 @@ Config.defaultlang = 'en_lang'
 -- NXT Metabolism Paid          = 7
 -- Andrade Metabolism Paid      = 8
 -- FX-HUD                       = 9
-Config.app = 1
+Config.app = 8
 ---------------------------------------------------------------
 
 Config.keys = {
